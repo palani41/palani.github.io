@@ -31,6 +31,7 @@ function newQuote(){
     }
     else{
         c_author = c_author.replace(', type.fit', '');
+         c_author = c_author.replace(',  type.fit', '');
         c_author = c_author.replace('type.fit', 'Palani');
        
     }
