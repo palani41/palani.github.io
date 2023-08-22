@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodex</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a href="#logo" class="logo">
+                <i class="fa-solid fa-bowl-rice" ></i>
+                Foodex
+            </a>
+            <div class="cart">
+                <div class="cart_count">0</div>
+                <i class="fa-solid fa-cart-plus" id="cart_icon"></i>
+            </div>
+        </div>
+
+        <div class="side ">
+            <div class="side_title">Cart Items</div>
+            <div class="side_container">
+                
+                <!-- <div class="side_box">
+                    <img src="images/dosa.jfif" alt="dosa" class="added_img">
+                    <div class="side_detail">
+                        <div class="added_title">Dosa</div>
+                        <div class="side_price">
+                            <div class="rate">Rs.40</div>
+                            <div class="order_rate">Rs.40</div>
+                        </div>
+                        <input type="number" value="1" class="orderfood">
+                    </div>
+                    <i class="fa-solid fa-trash-can" id="remove_icon"></i>
+                </div>
+
+                <div class="side_box">
+                    <img src="images/dosa.jfif" alt="dosa" class="added_img">
+                    <div class="side_detail">
+                        <div class="added_title">Dosa</div>
+                        <div class="side_price">
+                            <div class="rate">Rs.40</div>
+                            <div class="order_rate">Rs.40</div>
+                        </div>
+                        <input type="number" value="1" class="orderfood">
+                    </div>
+                    <i class="fa-solid fa-trash-can" id="remove_icon"></i>
+                </div> -->
+            </div>  
+            
+            <div class="total">
+                <div class="total_title">Total</div>
+                <div class="total_price">Rs.0</div>
+            </div>
+
+            <button class="place_order">Place Order</button>
+
+            <i class="fa-regular fa-circle-xmark" id="close" ></i>
+        </div>
+
+    </header>
+    
+    <!-- set images -->
+    <div class="container">
+        <h2 class="title">Pick Your Favorite</h2>
+        <div class="menu_container">
+                <!-- veg foods -->
+                <!-- dosa -->
+            <div class="menu_box">
+                <div class="image">
+                    <img src="images/dosa.jfif" alt="dosa" class="food_img">
+                </div>
+                <h2 class="food_title">Dosa</h2>
+                <span class="food_price">Rs.40</span>
+                <i class="fa-solid fa-cart-plus" id="add_cart"></i>
+            </div>
+
+            <!-- pannier -->
+            <div class="menu_box">
+                <div class="image">
+                    <img src="images/pannier.jfif" alt="pannier" class="food_img">
+                </div>
+                <h2 class="food_title">pannier masala</h2>
+                <span class="food_price">Rs.50</span>
+                <i class="fa-solid fa-cart-plus" id="add_cart"></i>
+            </div>
+
+            <!-- idly -->
+            <div class="menu_box">
+                <div class="image">
+                    <img src="images/idly.jfif" alt="idly" class="food_img">
+                </div>
+                <h2 class="food_title">idly</h2>
+                <span class="food_price">Rs.30</span>
+                <i class="fa-solid fa-cart-plus" id="add_cart"></i>
+            </div>
+
+            <!-- vegnon -->
+            <div class="menu_box">
+                <div class="image">
+                    <img src="images/vegnon.jfif" alt="vegnon" class="food_img">
+                </div>
+                <h2 class="food_title">Veg Non</h2>
+                <span class="food_price">Rs.50</span>
+                <i class="fa-solid fa-cart-plus" id="add_cart"></i>
+            </div>
+
+            <!-- chickhen briyani -->
+            <div class="menu_box">
+                <div class="image">
+                    <img src="images/chickenbriyani.jfif" alt="chichenbriyani" class="food_img">
+                </div>
+                <h2 class="food_title">chichen briyani</h2>
+                <span class="food_price">Rs.120</span>
+                <i class="fa-solid fa-cart-plus" id="add_cart"></i>
+            </div>
+
+            <!-- NonVegNon -->
+            <div class="menu_box">
+                <div class="image">
+                    <img src="images/nonvegnon.jfif" alt="Non veg Non" class="food_img">
+                </div>
+                <h2 class="food_title">NonVegNon</h2>
+                <span class="food_price">Rs.100</span>
+                <i class="fa-solid fa-cart-plus" id="add_cart"></i>
+            </div>
+
+            <!-- muttonbriyanicombo -->
+            <div class="menu_box">
+                <div class="image">
+                    <img src="images/muttonbriyani.jfif" alt="muttonbriyanicombo" class="food_img">
+                </div>
+                <h2 class="food_title">mutton briyani combo</h2>
+                <span class="food_price">Rs.200</span>
+                <i class="fa-solid fa-cart-plus"id="add_cart"></i>
+            </div>
+
+            <!-- chetinadu -->
+            <div class="menu_box">
+                <div class="image">
+                    <img src="images/chetnadu.jfif" alt="chetinadu" class="food_img">
+                </div>
+                <h2 class="food_title">chetinadu</h2>
+                <span class="food_price">Rs.120</span>
+                <i class="fa-solid fa-cart-plus" id="add_cart"></i>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
