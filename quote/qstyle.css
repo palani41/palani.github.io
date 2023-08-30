@@ -80,18 +80,18 @@ button:active{
     height: 120px;
     animation: spin 2s linear infinite;
   }
-  
+.longqoute{
+    font-size: 2.5rem;
+}
   @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
-.longqoute{
-    font-size: 2.5rem;
-}
+
 
 @media screen and (max-width:1000px){
     .mq-container{
-        margin: auto 15px;
+        margin: auto ;
     }
     .mq-text{
         font-size: 2.5rem;
@@ -100,7 +100,7 @@ button:active{
         font-size: 1.7rem;
     }
     .whole_container{
-        margin: auto 15px;
+        margin: auto 20px;
     }
 }
 
