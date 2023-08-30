@@ -99,6 +99,9 @@ button:active{
     .longqoute{
         font-size: 1.7rem;
     }
+    .whole_container{
+        margin: auto 15px;
+    }
 }
 
 
